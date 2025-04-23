@@ -9,7 +9,7 @@ Este repositorio tiene como objetivo enseñarte a configurar de manera adecuada 
 - ⚙️ **Configuración profesional**: Aprende a estructurar tu proyecto para escalar con facilidad.
 - 📚 **Uso de Mongoose**: Integra MongoDB con el ODM Mongoose.
 - 🗂️ **Separación de responsabilidades**: Organización clara en carpetas y archivos.
-- 🛠️ **Buenas prácticas**: Siguiendo convenciones comunes en la industria.
+- 🛠️ **Buenas prácticas**
 
 ---
 
@@ -62,14 +62,15 @@ project/
    Crea un archivo `.env` en la raíz del proyecto y agrega las siguientes variables:
 
    ```env
-   MONGO_URI=tu_cadena_de_conexion_a_mongodb
-   PORT=3000
+   mongo_URI=tu_cadena_de_conexion_a_mongodb
    ```
 
 4. ▶️ **Inicia el servidor**:
 
+   Navega hasta /src e introduce el siguiente comando en la terminal:
+
    ```bash
-   npm start
+   npm run dev
    ```
 
 ---
@@ -82,7 +83,22 @@ Accede a `http://localhost:3000` para comenzar a interactuar con tu API. Explora
 
 ## ☑️ Ejemplos de uso
 
--
+- En este caso he usado PostMan para interactuar con la API:
+   - GET `http://localhost:3000/api/cars` (Obtendremos todos los vehiculos)
+   - POST `http://localhost:3000/api/newcar` le pasamos al body en formato json nuestro modelo ejemplo:
+
+   ## Ejemplo de JSON
+
+```json
+{
+  "marca": "Ford",
+  "modelo": "Transit Custom",
+  "color": "Azul",
+  "combustible": {
+    "tipo": "Diesel",
+    "litros": 50
+  }
+}
 
 ---
 

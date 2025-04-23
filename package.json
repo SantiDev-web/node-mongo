@@ -1,0 +1,21 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "Este repositorio tiene como objetivo enseñarte a configurar de manera adecuada una conexión a MongoDB utilizando Node.js y Express, con un enfoque en mantener el código limpio y bien estructurado.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.10"
+  }
+}
