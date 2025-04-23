@@ -99,6 +99,7 @@ Accede a `http://localhost:3000` para comenzar a interactuar con tu API. Explora
     "litros": 50
   }
 }
+```
 
 ---
 
