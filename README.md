@@ -25,7 +25,7 @@ Este repositorio tiene como objetivo enseñarte a configurar de manera adecuada 
 ## ⚖️ Estructura del proyecto
 
 ```plaintext
-project/
+node-mongo/
 ├── src/
 │   ├── config/
 │   │   └── db.js
