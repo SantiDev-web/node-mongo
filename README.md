@@ -47,7 +47,7 @@ project/
 1. 🛠️ **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tuusuario/tu-repositorio.git
+   git clone https://github.com/SantiDev-web/node-mongo/tree/main
    cd tu-repositorio
    ```
 
